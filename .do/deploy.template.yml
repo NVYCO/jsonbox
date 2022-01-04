@@ -3,7 +3,7 @@ spec:
   services:
   - name: signalx-db
     git:
-      repo_clone_url: https://github.com/aakashlpin/jsonbox
+      repo_clone_url: https://github.com/NVYCO/jsonbox-1
       branch: master
     build_command: npm install
     run_command: npm start
